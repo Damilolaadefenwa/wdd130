@@ -7,6 +7,15 @@
     color: #fff;	
 }
 
+/* .callout {
+    max-width: 400px;
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 15px;
+    background-color: #247;
+    color: #fff;	
+} This is a repeated code and I'm just using it to practise commenting*/ 
+
 .callout img {
     float: right;
 	margin: 0 0 10px 15px;
