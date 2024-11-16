@@ -1,9 +1,10 @@
 :root {
-    --heading-backgroud-text-color: darkblue;
+    --heading-backgroud-color: darkblue;
+    --heading-text-color:darkblue ;
     --highlight-color: white;
 }
 nav {
-    background-color:var(--heading-backgroud-text-color);
+    background-color:var(--heading-backgroud-color);
     /* background-color: darkblue; */
     padding: 10px;
 }
@@ -14,7 +15,7 @@ nav a {
     padding: 20px
 }
 h1 {
-    color: var(--heading-backgroud-text-color);
+    color: var(--heading-text-color);
      /* color: white; */
 }
 main img {
