@@ -45,11 +45,13 @@ aside {
     /* background-color: #eee; */
     /* color: #333; */
     text-align: center;
+    position: relative;
 }
 aside h2 {
     position: absolute;
-    top: 550px;
-    left: 80px;
+    top: 15px;
+    left: 60px;
+    font-weight: bold;
 }
 aside img {
     width: 200px;
@@ -68,5 +70,5 @@ footer {
    border: 1px solid rgb(0 0 0 / .1); 
    padding: 1rem;
    background-color: skyblue;
-   color: #333;     
+   color: #291717;     
 }
