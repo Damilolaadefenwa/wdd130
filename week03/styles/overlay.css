@@ -32,7 +32,7 @@ h2 {
     bottom: 25px;
     left: 15px;
 	/* top: 25px;
-	right: 25px; */
+	right: 25px; */ /* This is the old value property before the new one*/
 	background: radial-gradient(#eee, #11aa11);
 	border: 1px solid #000;
 	padding: 0.65rem;
