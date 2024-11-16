@@ -24,7 +24,7 @@ h1 {
      /* color: white; */
 }
 main img {
-    width: 145px;
+    width: 142px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -47,9 +47,9 @@ aside {
     text-align: center;
 }
 aside h2 {
-    position: relative;
-    top: 47px;
-    left: 15px;
+    position: absolute;
+    top: 550px;
+    left: 80px;
 }
 aside img {
     width: 200px;
@@ -60,7 +60,9 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-/* Class Selector */
+
+    /* Class Selectors */
+
 .box {
    margin: 1rem;
    border: 1px solid rgb(0 0 0 / .1); 
