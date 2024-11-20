@@ -24,7 +24,7 @@ h2 {
 p {
     font-family: var(--paragraph-text-font-family);
     font-weight: 300;
-    font-size:  normal;
+    font-style:  normal;
     color: var(--my-primary-color);
 }
 
