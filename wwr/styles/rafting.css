@@ -41,28 +41,38 @@ div.hero {
     width: 500px;
     margin: auto;
     height: auto;
-    border: 1px solid black;
+    padding: 10px;
 }
 
 div.hero h1 {
     position: absolute;
     top: 60px;
-    left: 80px;
-    border: 1px solid #B7B8BE;
-    width: 700px;
+    left: 2.1%;
+    border: 0.5px solid #232424;
+    width: 902px;
     margin: auto;
-    background-color: hsl(0, 0%, 43%);
+    background-color: rgba(32, 35, 37, 0.4);
     text-align: center;
+    color: #B7B8BE;
+    font-weight: 400;
 }
 
 article {
     position: absolute;
-    bottom: 40px;
-    left: 70px;
-    background:var(--my-secondary-color);
+    top: 130px;
+    left: 100px;
+    width: 700px;
+    height: 190px;
+    background-color: rgba(17, 64, 106, 0.6);
     border: 0.5px solid #000;
-	padding: 0.65rem;
-	box-shadow: 0 0 30px #111;
+	padding: 10px;
+}
+
+article p{
+    font-family: var(--paragraph-text-font-family);
+    font-weight: 500;
+    color: #c7c8cf;
+    font-size: medium;
 }
 
 article img {
