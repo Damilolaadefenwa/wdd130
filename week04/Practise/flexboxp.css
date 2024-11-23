@@ -1,0 +1,46 @@
+/* How to Use flexbox to create dynamic layout for your website */
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    background-color:yellow;
+    align-items: center;
+}
+
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+/* The property "Shrink" makes your flexbox to shrink as your adjust the size of your browser */
+
+.flexbox-item-1 {
+    min-height: 100px;
+    flex-shrink: 0;
+    align-self: flex-end;
+    order: 3;
+}
+
+/* The property "grow" allow your flewbox all of the left-over space as you adjust 
+the size of your broser */
+
+.flexbox-item-2 {
+    min-height: 200px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 1;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    flex-grow: 1;
+    flex-basis: 0;
+    order: 2;
+}
+
+/* The "Order" property help you to re-arrange the flexbox without doing it in html but it's not advisable
+to do it because other browser that uses screen-reader will still follow the html arrangement  */
