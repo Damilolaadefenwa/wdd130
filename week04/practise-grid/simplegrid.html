@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en-Us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=">
+        <meta name="description" content="A simple layout Example on grid">
+        <meta name="author" content="Damilola Adefenwa">
+        <title>Simple Grid</title>
+
+        <style>
+            .grid-container {
+                display: grid;
+                /*grid-template-columns: 200px 200px 200px;*/
+                /*grid-template-columns: 200px 70px 100px 20px;*/
+                /*grid-template-columns: 150px auto;*/
+                /*The last grid column option with auto is good for responsiveness bcos it adjust itself as you resize the browser/screen sizer
+                The 1fr gives us one fraction of a whole assigned to each column* it's also responsive as well as you change the screen size
+                You can also use a shortcut for repeted value e.g "repeat(5, 1fr) */
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-gap: 30px;
+                background-color: #8cc1e8;
+                padding: 10px;
+            }
+            .grid-item {
+                background-color: #dcebf8;
+                border: 1px solid black;
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+            <div class="grid-item">10</div>
+        </div> 
+    </body>
+</html>
