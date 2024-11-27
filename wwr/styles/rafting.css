@@ -19,6 +19,8 @@ h2 {
     font-weight: 500;
     font-style: normal;
     color: var(--my-secondary-color);
+    text-align: justify;
+    display: flex;
 }
 
 p {
@@ -28,7 +30,7 @@ p {
     color: var(--my-primary-color);
 }
 
-/*Date:26/11/2024: Updating by editing the header, Navigation,sections and footer */
+/*Date:26/11/2024: 1ST Updating by editing the header, Navigation,sections and footer */
 
 header {
     margin: 0.3rem auto;
@@ -136,4 +138,39 @@ article img {
     box-shadow: 0 0 30px gray;
     float: right;
 
+}
+
+/*Date:26/11/2024: 2ND Updating by editing the header, Navigation,sections and footer */
+
+.history {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1250px;
+    height: 280px;
+    margin-top: 0.1rem;
+    background-color: rgba(183, 184, 190, 0.3);
+}
+
+.history p {
+    color: var(--my-secondary-color);
+    font-weight: 500;
+}
+
+.aside-1 {
+    margin: 2.8rem;
+}
+
+.center img {
+    text-align: center;
+    margin: 1.5rem;
+    width: 250px;
+    height: auto;
+}
+
+.center {
+    margin: auto;
+    width: 300px;
+    /*border: 1px solid black;*/
+    justify-items: center;
 }
