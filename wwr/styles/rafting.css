@@ -28,9 +28,62 @@ p {
     color: var(--my-primary-color);
 }
 
-nav a {
+/*Date:26/11/2024: Updating by editing the header, Navigation,sections and footer */
+
+header {
+    margin: 0.3rem auto;
+    display: grid;
+    grid-template-columns:  1fr 2fr 120px 120px;
+    align-items: center;
+    background-color: var(--my-primary-color);
+}
+
+.logo img {
+    margin: 1.5rem;
+    height: auto;
+    width: 125px;
+    box-shadow: 0 0 30px gray;
+    position: relative;
+    left: 150px;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation button {
+    flex: 1fr 1fr 100%;
+    flex-flow: row wrap;
+    flex-shrink: 0.9;
+}
+
+button {
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.0;
+}
+
+.navigation a {
+    display: block;
+    color: var(--my-primary-color);
+    font-weight: 700;
+    padding: 20px;
     text-decoration: none;
 }
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/**/
 
 main {
     max-width: 880px;
@@ -82,4 +135,5 @@ article img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+
 }
