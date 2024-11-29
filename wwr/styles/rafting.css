@@ -16,10 +16,10 @@ h1 {
 
 h2 {
     font-family: var(--heading-font-family);
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
-    color: var(--my-secondary-color);
-    text-align: justify;
+    color: var(--my-primary-color);
+    text-align: center;
     display: flex;
 }
 
@@ -107,7 +107,7 @@ div.hero h1 {
     margin: auto;
     background-color: rgba(32, 35, 37, 0.4);
     text-align: center;
-    color: #B7B8BE;
+    color: #e4e4e6;;
     font-weight: 400;
 }
 
@@ -125,7 +125,7 @@ article {
 article p{
     font-family: var(--paragraph-text-font-family);
     font-weight: 500;
-    color: #c7c8cf;
+    color: #e4e4e6;
     font-size: medium;
 }
 
@@ -139,7 +139,7 @@ article img {
 
 }
 
-/*Date:26/11/2024: 2ND Updating by editing the header, Navigation,sections and footer */
+/*Date:26/11/2024: 2ND Updating by editing the 1st sections*/
 
 .container-1 {
     display: flex;
@@ -173,3 +173,73 @@ aside {
     /*border: 1px solid black;*/
     justify-items: center;
 }
+
+/*Date:27/11/2024: 2ND Updating by editing the 2nd sections and footer */
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1233px;
+    height: 350px;
+    margin-top: 0.8rem;
+    background-color: rgba(183, 184, 190, 0.3);
+}
+
+.centering {
+    display: flex;
+    margin: 1.0rem;
+    top: 540px;
+    width: 300px;
+    position: absolute; 
+}
+
+.span {
+    display: flex;
+    margin-top: 1.7rem;
+}
+
+figure {
+    /*border: thin #c0c0c0 solid;*/
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic small sans-serif;
+    padding: 0.5px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--my-secondary-color);
+    padding: 10px 20px;
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 1200px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+footer nav {
+    padding: 0;
+    text-align: right;
+}
+
+.sociallinks {
+    display: flex
+}
+
+/*.sociallinks div {
+    text-align: right;
+
+}*/
