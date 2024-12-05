@@ -38,6 +38,8 @@ header {
     grid-template-columns:  2fr 1fr 120px;
     align-items: center;
     background-color: var(--my-primary-color);
+    width: 1233px;
+    margin-left: 0.5rem;
 }
 
 .logo img {
@@ -84,11 +86,17 @@ a:hover {
     text-decoration: underline;
 }
 
-/**/
+/*Date:05-12-2024 Update done on the body element*/
 
 main {
     max-width: 880px;
 }
+
+body {
+    max-width: 1233px;
+    background-color: rgb(215, 213, 213);
+}
+
 
 div.hero {
     position: relative;
@@ -148,7 +156,8 @@ article img {
     width: 1233px;
     height: 280px;
     margin-top: 0.1rem;
-    background-color: rgba(183, 184, 190, 0.3);
+    background-color: rgba(155, 156, 159, 0.3);
+    margin-left: 0.25rem;
 }
 
 .container-1 p {
@@ -183,7 +192,8 @@ aside {
     width: 1233px;
     height: 350px;
     margin-top: 0.8rem;
-    background-color: rgba(183, 184, 190, 0.3);
+    background-color:  rgba(155, 156, 159, 0.3);
+    margin-left: 0.25rem;
 }
 
 .centering {

@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #f2eded;
+}
+
+header {
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.8rem;
+    color: rgb(1, 1, 92);
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+
