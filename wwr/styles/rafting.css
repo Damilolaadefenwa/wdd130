@@ -213,6 +213,7 @@ aside {
 .span {
     display: flex;
     margin-top: 1.7rem;
+    gap: 1rem;
 }
 
 figure {
@@ -226,8 +227,9 @@ figcaption {
     background-color: #222;
     color: #fff;
     font: italic small sans-serif;
-    padding: 0.5px;
+    padding: 0.9px;
     text-align: center;
+    width: 220px;
 }
 
 footer {
