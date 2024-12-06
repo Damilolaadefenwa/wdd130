@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2em;
+    background: rgb(206, 236, 248);
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 2rem;
+    font-size: 1.8rem;
+    color: rgb(1, 1, 92);
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #f6f6f6;
+    display: grid;
+    gap: 1.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.textbox {
+    width: 300px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin-left: 3rem;
+    font-size: 0.8rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(1, 1, 92);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #454444;
+    border-top: 1px solid #ccc;
+}
