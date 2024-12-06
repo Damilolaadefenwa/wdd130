@@ -7,6 +7,12 @@
     --my-accent2-color: #ADD9EB;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: var(--heading-font-family);
     font-weight: 700;
@@ -39,7 +45,7 @@ header {
     align-items: center;
     background-color: var(--my-primary-color);
     width: 1233px;
-    margin-left: 0.5rem;
+    margin-left: 0.8rem;
 }
 
 .logo img {
@@ -157,7 +163,7 @@ article img {
     height: 280px;
     margin-top: 0.1rem;
     background-color: rgba(155, 156, 159, 0.3);
-    margin-left: 0.25rem;
+    margin-left: 0.8rem;
 }
 
 .container-1 p {
@@ -193,7 +199,7 @@ aside {
     height: 350px;
     margin-top: 0.8rem;
     background-color:  rgba(155, 156, 159, 0.3);
-    margin-left: 0.25rem;
+    margin-left: 0.8rem;
 }
 
 .centering {
@@ -231,7 +237,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center; 
-    width: 1200px;
+    width: 1233px;
+    margin-left: 0.8rem;
 }
 
 footer p {
