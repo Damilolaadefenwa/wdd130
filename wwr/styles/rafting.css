@@ -258,7 +258,144 @@ footer nav {
     display: flex
 }
 
-/*.sociallinks div {
-    text-align: right;
+footer p a {
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
 
-}*/
+/* DATE:7TH DEC. 2024| CSS STYLYING OF CONTACT US PAGE */
+
+.contactheading {
+    margin-top: 1rem;
+    margin-left: 35rem;   
+}
+
+.contacttext {
+    margin-top: 0.2rem;
+    margin-left: 25rem;   
+}
+
+.contacttext p {
+    font-family: var(--paragraph-text-font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.gmap {
+    margin-top: 0.5rem;
+    margin-left: 27rem;
+    width: 800px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1233px;
+    height: 350px;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+    padding-right: 8rem;
+    border: 0.5px solid rgba(155, 156, 159, 0.3);
+    gap: 2.5rem;
+    background-color: rgb(27, 28, 30) ;
+}
+
+.container-3 img {
+    width: 350px;
+    height: auto;
+}
+
+.container-3 figcaption {
+    background-color: #3f3e3e;
+    color: #fff;
+    font: italic small sans-serif;
+    padding: 0.9px;
+    text-align: center;
+    width: 350px;
+}
+
+.formtitle {
+    margin-top: 1rem;
+    margin-left: 25rem;
+}
+
+h3 {
+    text-align: center;
+    font-family: var(--heading-font-family);
+    color: var(--my-primary-color);
+    font-weight: 400;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: rgb(183, 184, 190);
+    display: grid;
+    gap: 1rem;
+    margin-left: 20rem;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="Checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: text-bottom;
+}
+
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+
+.textbox {
+    width: 550px;
+    background-color: whitesmoke;
+    color: white;
+    margin-left: 1.5rem;
+    font-size: 0.8rem;
+}
+
+form button {
+    margin: 1rem;
+    background-color: var(--my-secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+form button:hover {
+    background-color: darkgreen;
+}
+
+.formrow3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formrow3 input{
+    margin-left: 0.5rem;
+}
