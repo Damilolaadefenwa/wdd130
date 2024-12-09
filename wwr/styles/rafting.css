@@ -288,7 +288,6 @@ footer p a {
 .gmap {
     margin-top: 0.5rem;
     margin-left: 27rem;
-    width: 800px;
 }
 
 .container-3 {
@@ -321,10 +320,7 @@ footer p a {
 
 .formtitle {
     margin-top: 1rem;
-    margin-left: 25rem;
-}
-
-h3 {
+    margin-left: 33rem;
     text-align: center;
     font-family: var(--heading-font-family);
     color: var(--my-primary-color);
@@ -343,18 +339,17 @@ form {
     margin-left: 20rem;
 }
 
-label, input, button, select, textarea {
-    font-family: Roboto, Arial, sans-serif;
-}
-
 label {
     text-align: left;
     padding-left: 0.5rem;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
 }
 
 input, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 input[type="Checkbox"] {
@@ -384,6 +379,7 @@ form button {
     border-radius: 0.5rem;
     padding: 0.75rem;
     font-size: 1.2rem;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 form button:hover {
