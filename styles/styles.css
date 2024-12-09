@@ -24,6 +24,13 @@ nav a {
     color: var(--heading-text-color);
 }
 
+ nav a:hover {
+    color: tomato;
+    background-color: darkblue;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
 h1 {
     color: var(--heading-text-color);
     font-weight: bolder;
