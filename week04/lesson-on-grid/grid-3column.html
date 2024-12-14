@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>3- column layout</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: green;
+            grid-column: span 3;
+        }
+
+        h2 {
+            color: black;
+            grid-column: span 3;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .item {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>GeeksforGeeks</h1>
+    <h2>Basic 3-Column Layout</h2>
+    <div class="container">
+        <div class="item">
+            <h3>Languages</h3>
+            <p>Python, JavaScript, Java, C++</p>
+        </div>
+        <div class="item">
+            <h3>Courses</h3>
+            <p>Data Structures, Algorithms,
+              Web Development</p>
+        </div>
+        <div class="item">
+            <h3>Articles</h3>
+            <p>Introduction to Algorithms,
+              Web Development Basics</p>
+        </div>
+    </div>
+</body>
+
+</html>
