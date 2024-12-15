@@ -590,6 +590,115 @@ button.join:hover {
     }
 }
 
+
+/*Date: 15th Dec. 2024: Adding Css Styling to the Trips Page*/
+
+#herobannertrip {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+    margin-left: 20px;
+    
+}
+   
+#herobannertrip img {
+    width: 100%;
+    height: 500px;
+}
+
+#herobanner-msg2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#herobanner-msg2 h1 {
+    text-align: center;
+}
+
+#herobanner-msg2 h4 {
+    text-align: center;
+    color: white;
+    font-family: var(--paragraph-text-font-family);
+    font-size: 1.3rem;
+    font-style:normal;
+    margin-top: 20px;
+}
+
+.book2 {
+    background-color: white;
+    color: var(--my-primary-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.rivers {
+    padding: 50px;
+}
+
+.rivers h2 {
+    color: var(--headline-color-on-color);
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+.rivers p {
+    color: var(--paragraph-color-on-color);
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-family: var(--paragraph-font);
+    padding-bottom: 15px;
+}
+
+.wrapper1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+}
+
+.wrapper1 .picture {
+    grid-column: 1/3;
+    grid-row: 2 / span 2;
+    align-self: center;
+}
+
+.wrapper1 .picture img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper1 .header {
+    grid-column: 3/5;
+    grid-row: 2 / span 1;
+}
+
+.wrapper1 .content {
+    grid-column: 3/5;
+    grid-row: 2 / span 2;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.wrapper1 .under-box {
+    grid-column: 2/5;
+    grid-row: 1 / span 4;
+    background-color: var(--accent1-color);
+    z-index: -1;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+
+
 /*Grid Layout: The main content uses a 2-column grid, and the cards use a nested 3-column grid.
 
 Responsive Design: The layout switches to a single-column format for smaller screens (max-width 768px).
