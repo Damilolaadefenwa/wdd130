@@ -696,6 +696,45 @@ button.join:hover {
     margin: 0 auto;
 }
 
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+}
+
+.wrapper2 .picture {
+    grid-column: 5/3;
+    grid-row: 2 / span 2;
+    align-self: center;
+}
+
+.wrapper2 .picture img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper2 .header {
+    grid-column: 1/3;
+    grid-row: 2/2;
+}
+
+.wrapper2 .content {
+    grid-column: 1/3;
+    grid-row: 2 / span 2;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.wrapper2 .under-box {
+    grid-column: 1/4;
+    grid-row: 1 / span 4;
+    background-color: var(--accent1-color);
+    z-index: -1;
+}
+
 
 
 
