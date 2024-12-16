@@ -735,7 +735,44 @@ button.join:hover {
     z-index: -1;
 }
 
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: var(--paragraph-text-font-family);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
 
+/*caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: 700;
+    font-style:normal;
+}*/
+
+thead th {
+    background-color: #000;
+    color: #fff;
+}
+
+thead {
+    background-color: rgb(228 240 245);
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) 
+{
+    background-color: rgb(237 238 242);
+}
 
 
 /*Grid Layout: The main content uses a 2-column grid, and the cards use a nested 3-column grid.
