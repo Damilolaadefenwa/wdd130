@@ -401,7 +401,7 @@ form button:hover {
 #herobanner {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 10px;
+    margin-top: -100px;
     margin-left: 20px;
 }
 
@@ -414,7 +414,7 @@ form button:hover {
 #herobanner-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 #herobanner h1 {
@@ -423,7 +423,7 @@ form button:hover {
 
 #herobanner h4 {
     text-align: center;
-    color: white;
+    color: #f7f7f7;
     font-family: var(--paragraph-text-font-family);
     font-size: 1.5rem;
     font-style:normal;
@@ -435,10 +435,9 @@ form button:hover {
 }
 
 .home-title {
-    color:  white;
+    color:  #f7f7f7;
     font-family: var(--heading-font-family);
     font-size: 3em;
-    /*margin-top: 0.5rem;*/
 }
 
 .button-box {
@@ -453,7 +452,7 @@ form button:hover {
     text-decoration: none;
     font-size: 18px;
     padding: 15px;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 5px;
 }
 
@@ -510,7 +509,7 @@ form button:hover {
     border-radius: 8px; /* Smooth corners */
     margin-top: 20px;
     position: absolute;
-    top: 1350px;
+    top: 1300px;
     left: 70px;
 }
 
@@ -673,7 +672,7 @@ Form Styling: The form is clean and styled for easy reading and input.*/
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     justify-content: center;
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
     margin-top: 50px;
 }
